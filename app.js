@@ -1,7 +1,7 @@
 
 
 /**
- * Blametim Twitter Bot
+ * #blametim Twitter Bot
  * Negative tweets in London, just #blametim
  * https://twitter.com/_blametim
  */
@@ -10,9 +10,9 @@
  * Module dependencies.
  */
 
-var Twit = require('twit'); // Twitter 
-var sentiment = require('sentiment'); //Sentiment analysis
-var keys = require('./keys.js'); //Twitter API keys
+var Twit = require('twit'); // Twitter API client - https://github.com/ttezel/twit 
+var sentiment = require('sentiment'); // AFINN-based sentiment analysis for Node.js - https://github.com/thisandagain/sentiment
+var keys = require('./keys.js'); // Local Twitter API keys
 
 /**
 * Keys saved in keys.js as variables: 
