@@ -1,0 +1,12 @@
+{
+  "name": "#blametim",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "sentiment": "^1.0.2",
+    "twit": "^1.1.20"
+  }
+}
